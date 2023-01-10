@@ -5,9 +5,9 @@ KMLParser is a lightweight parser and editor for KML files, built as part of cou
 Editable KML fields: Names of points; Colours and widths of styles.
 
 ### KML Structure Contraints
-- (1) <KML> element.
-- Maximum (1) <Document> element.
-- (0) or more <Placemark>, <Style>, and <StyleMap> elements.
+- (1) `<KML>` element.
+- Maximum (1) `<Document>` element.
+- (0) or more `<Placemark>`, `<Style>`, and `<StyleMap>` elements.
 Please see the provided test files for compatible KML files. 
 
 <br>Compilation: Enter `make parser` at root level to compile source files.
