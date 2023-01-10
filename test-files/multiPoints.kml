@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <Placemark>
+      <name>Simple placemark</name>
+      <description>Attached to the ground. Intelligently places itself at the
+      height of the underlying terrain.</description>
+      <Point>
+        <coordinates>-122.082204,37.422290,0.000000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Floating placemark</name>
+      <visibility>0</visibility>
+      <description>Floats a defined distance above the ground.</description>
+      <styleUrl>#downArrowIcon</styleUrl>
+      <Point>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-122.084075,37.422003,50.000000</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Extroverted placemark</name>
+      <visibility>0</visibility>
+      <description>Tethered to the ground by a customizable "tail"</description>
+      <styleUrl>#globeIcon</styleUrl>
+      <Point>
+        <extrude>1</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <coordinates>-122.085767,37.421569,50.000000</coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>

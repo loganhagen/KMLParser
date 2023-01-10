@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Placemark>
+    <visibility>1</visibility>
+    <description>Part of a larger path</description>
+    <LineString>
+      <extrude>1</extrude>
+      <tessellate>1</tessellate>
+      <altitudeMode>relativeToGround</altitudeMode>
+      <coordinates>
+        -80.220105,43.549239,20
+        -80.221315,43.548626,20
+        -80.22208,43.547914,20
+        -80.222627,43.547255,20
+        -80.223989,43.546158,20
+        -80.224413,43.545756,20
+        -80.224625,43.54541,20
+        -80.225344,43.544996,20
+        -80.226307,43.54389,20
+        -80.226905,43.543435,20
+        -80.231172,43.540921,20
+        -80.23346,43.539879,20
+        -80.23522,43.539326,20
+        -80.235858,43.539313,20
+        -80.23847,43.53887,20
+        -80.238641,43.539007,20
+      </coordinates>
+    </LineString>
+  </Placemark>
+</kml>
+
+

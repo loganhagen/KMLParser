@@ -1,0 +1,6 @@
+.vscode/c_cpp_properties.json
+.vscode/settings.json
+bin/KMLHelpers.o
+bin/KMLParser.o
+bin/libkmlparser.so
+bin/LinkedListAPI.o

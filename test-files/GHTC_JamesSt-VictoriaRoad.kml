@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+<StyleMap id="failed">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#failed0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#failed1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="failed0">
+		<LineStyle>
+			<color>ffff0058</color>
+		</LineStyle>
+	</Style>
+	<Style id="failed1">
+		<LineStyle>
+			<color>ffff0058</color>
+		</LineStyle>
+	</Style>
+	<Placemark>
+		<name>GHTC James St-Victoria Road</name>
+		<description>Transparent purple line</description>
+		<styleUrl>#failed</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>
+				-80.220105,43.549239,20 -80.221315,43.548626,20 -80.22208000000001,43.547914,20 -80.222627,43.547255,20 -80.223989,43.546158,20 -80.224413,43.545756,20 -80.224625,43.54541,20 -80.22534400000001,43.544996,20 -80.22630700000001,43.54389,20 -80.226905,43.543435,20 -80.231172,43.540921,20 -80.23345999999999,43.539879,20 -80.23522,43.539326,20 -80.23585799999999,43.539313,20 -80.23847000000001,43.53887,20 -80.238641,43.539007,20 
+			</coordinates>
+		</LineString>
+	</Placemark>
+</Document>
+</kml>

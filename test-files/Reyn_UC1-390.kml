@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Placemark>
+    <visibility>1</visibility>
+    <description>Simple line</description>
+    <LineString>
+      <tessellate>1</tessellate>
+      <altitudeMode>absolute</altitudeMode>
+      <coordinates> 
+        -80.229241,43.530912,335.0
+        -80.229476,43.530258,331.0
+        -80.229129,43.529955,315.6
+        -80.228202,43.529685,331.5
+        -80.227588,43.529953,343.7
+        -80.226779,43.530525,354.9
+        -80.226548,43.530888,344.9
+      </coordinates>
+    </LineString>
+  </Placemark>
+</kml>
+
+

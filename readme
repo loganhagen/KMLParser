@@ -1,0 +1,18 @@
+KMLParser is a lightweight parser and editor for KML files, built as part of coursework for a sophomore-level software engineering course. It is built with a combination of C (back-end) and Python (front-end). 
+
+Editable KML fields: Names of points; Colours and widths of styles.
+
+Any KML file can be used, however they must adhere to certain contraints for the following types of elements:
+- (1) <KML> element.
+- Maximum (1) <Document> element.
+- (0) or more <Placemark>, <Style>, and <StyleMap> elements.
+Please see the provided test files for compatible KML files. 
+
+Compilation: Enter `make parser` at root level to compile source files.
+To run: Enter `python3 KMLParser.py` in bin after compilation. Ensure that any KML files intended for use are also in bin.
+
+Keyboard shortcuts:
+- Exit: CTRL-X
+- Open: CTRL-O
+- Save: CTRL-S
+- Save-as: CTRL-SHFT-S
